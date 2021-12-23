@@ -64,7 +64,7 @@ form label
 #box
 {
     /* background-image: linear-gradient(-10deg,rgb(2, 104, 199),#71eeee ,rgb(255, 238, 0)); */
-    background-image: radial-gradient(10deg,rgb(74, 92, 255),rgb(255, 174, 251));
+    background-image: linear-gradient(250deg,rgb(74, 92, 255),rgb(190, 255, 174));
      border-radius: 50%;
     position:fixed;
       width: 200px;
@@ -79,16 +79,16 @@ form label
 }
 @keyframes bos{
   from{
-    margin-top:500px
+    margin-top:00px
   }
   25%{
     margin-bottom: 220px;
   }
   50%{
-    margin-left: 500px;
+    margin-left: 900px;
   }
   75%{
-    margin-right:500px ;
+    margin-top:500px ;
   }
   to{
     margin-right:0px
@@ -123,9 +123,27 @@ form label
     margin-left: 0px;
   }
   75%{
-    margin-top:0px ;
+    margin-top:550px ;
   }
   to{
     margin-right:200px
   }
 }
+
+label
+{
+  animation-name: label;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-delay: 1;
+}
+@keyframes label{
+  from{
+    margin-left: 400px;
+  }
+  to{
+    margin-left: 0px;
+  }
+}
+
