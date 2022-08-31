@@ -16,6 +16,7 @@ Animal.prototype={
     numLegs:4
 }
 
+// something change 
 function Box()
 {
     let con=document.getElementById("box");
